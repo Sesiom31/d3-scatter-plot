@@ -12,6 +12,15 @@
   align-items: center;
 }
 
+.container-svg{
+  width: 100%;
+  height: auto;
+  padding: 1rem ;
+  position: relative;
+  display: flex;
+  justify-content: center;align-items: center;
+}
+
 #title{
   text-align: center;
   color: #fff;
@@ -23,4 +32,21 @@
   color: #fff;
   font-size: 1.2rem;
   text-align: center;
+}
+
+.tooltip{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(120, 120, 168);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: auto;
+  height: auto;
+  box-shadow: 0 0 0.5rem #002;
 }
